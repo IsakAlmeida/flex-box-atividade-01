@@ -25,9 +25,13 @@ h1 {
     /* 3- justify-content:center; */ 
     /* 4- align-items: flex-end; */
     /*6-  align-items: center;*/
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
 }
 
 #filho1{
@@ -42,12 +46,6 @@ h1 {
     align-self: center;
 }
 
-.filho {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    text-align: center;
-}
 
 .cor1 {
     background-color: #ED145B;
